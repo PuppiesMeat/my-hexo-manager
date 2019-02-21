@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "初始化hexo"
+npm install hexo --save
+
 echo "clone 文档部署仓库"
 git clone git@github.com:PuppiesMeat/PuppiesMeat.github.io.git #文档部署仓库
 
